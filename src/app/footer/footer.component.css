@@ -1,0 +1,26 @@
+footer {
+    background-color: var(--dark);
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .container-fluid {
+    color: var(--light);
+    background-color: var(--secondary);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 10vh;
+}
+
+footer .container .row {
+    padding: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: 50vh;
+    color: var(--light)
+}

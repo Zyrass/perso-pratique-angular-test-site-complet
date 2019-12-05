@@ -1,0 +1,23 @@
+header { 
+    height: 100vh; 
+    background-color: var(--light);
+    background-image: url(../../assets/test.png);
+    background-size: cover;
+}
+
+hr {
+    border: 1px solid var(--light);
+    width: 80%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    height: calc(100vh - 56px);
+}
+
+.container p {
+    color: var(--dark);
+}

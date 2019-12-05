@@ -1,0 +1,23 @@
+section:first-child {
+    background-color: var(--light);
+    background-image: url(../../assets/test2.png);
+    background-size: cover;
+}
+
+section .container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+section .container .row {
+    height: 20vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section .container .row .col-4 {
+    margin: 10px;
+}
+

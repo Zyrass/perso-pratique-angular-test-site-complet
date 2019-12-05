@@ -1,0 +1,16 @@
+<section>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-4" *ngFor="let langage of langages">
+                <div class="card" style="width: 18rem;">
+                    <img [src]="langage.cover" [height]="height" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">{{ langage.nom }}</p>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- ./row -->
+    </div>
+</section>
